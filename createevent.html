@@ -6,6 +6,23 @@
     </head>
     <body>
         <nav><a href="./homepage.html">home-page</a></nav>
-        <p>Labs</p>
+        <section>
+            <h1>Create a new event</h1>
+            <form action="homepage.html" method="post">
+                <label for="name">Event name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="type">Choose an event type:</label>
+                <select size="3" multiple="true" name="type" id="type">
+                    <option value="sport">Sport</option>
+                    <option value="art">Art</option>
+                    <option value="concert">Concert</option>
+                </select><br>
+                <label for="description">Description of the event</label>
+                <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+
+
+        </section>
     </body>
 </html>
